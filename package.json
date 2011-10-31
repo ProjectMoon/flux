@@ -3,7 +3,7 @@
   "name": "flux",
   "description": "Easily find and acquire torrents from public torrent sites.",
   "tags": [ "torrent", "torrents", "bittorrent" ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ProjectMoon/flux",
   "repository": {
     "type": "git",
