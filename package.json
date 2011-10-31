@@ -2,10 +2,12 @@
   "author": "ProjectMoon",
   "name": "flux",
   "description": "Easily find and acquire torrents from public torrent sites.",
+  "tags": [ "torrent", "torrents", "bittorrent" ],
   "version": "1.0.0",
+  "homepage": "https://github.com/ProjectMoon/flux",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ProjectMoon/node-torrents.git"
+    "url": "git://github.com/ProjectMoon/flux.git"
   },
   "main": "lib/flux.js",
   "engines": {
