@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ProjectMoon/flux.png)](http://travis-ci.org/ProjectMoon/flux)
 flux
 ====
 Flux is an easy way to find and acquire public torrent files using Node.
