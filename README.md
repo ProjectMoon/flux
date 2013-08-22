@@ -252,6 +252,12 @@ following properties and methods:
 When the provider is complete, it can be passed into `flux.configure` as a
 provider like any built-in provider.
 
+It may also be required to create a custom downloader for the provider, for example if
+the site does not provide direct torrent download links as a source. Currently the 
+downloaders are contained in the downloaders.js file and that file would require an
+update if a custom downloader is needed. The next version will have more modular downloader
+definitions.
+
 Disclaimers
 -----------
 This software is not affiliated with any provider or site it connects
