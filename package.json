@@ -14,7 +14,7 @@
     "node": ">=v0.4.0"
   },
   "dependencies": {
-    "jsdom": "",
+    "jsdom": "0.6.5",
     "htmlparser": "",
     "async": ""
   },
