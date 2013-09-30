@@ -46,7 +46,7 @@ vows.describe('Flux Core (VODO provider)').addBatch({
 		},
 		
 		'should only be one result': function(err, results) {
-			assert.length(Object.keys(results), 1);
+			assert.isTrue(Object.keys(results).length == 1);
 		},
 		
 		'should have locate result structure': function(err, results) {
