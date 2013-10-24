@@ -20,7 +20,7 @@ module.exports.isTorrent = function(torrent) {
 }
 
 module.exports.isSource = function(source) {
-	assert.length(Object.keys(source), 2);
+	assert.isTrue(Object.keys(source).length == 2);
 	assert.isTrue(typeof source.name !== 'undefined');
 	assert.isTrue(typeof source.href !== 'undefined');
 	assert.isString(source.name);
