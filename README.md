@@ -9,16 +9,13 @@ torrent sites:
 
 Installation
 ------------
-The easiest way to install flux is through npm:
+Flux is not available through npm at this time. You need to clone the git
+repository:
 
-    npm install flux
+    git clone git@github.com:ProjectMoon/flux
     
-This will drop it into the current `node_modules` directory and make it
-available to Node.
-
-Flux can also be installed manually by checking out the git repository
-and copying the `lib` directory to the desired destination and `require`
-ing the full path.
+Copy the `lib` directory to the desired destination and `require` the full
+path.
 
 Tests
 -----
