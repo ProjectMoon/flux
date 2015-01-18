@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "htmlparser": "",
+    "request": "",
     "async": "",
     "cheerio": "~0.12.2"
   },
