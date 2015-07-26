@@ -88,7 +88,7 @@ vows.describe('Flux Core (Torrentz provider)').addBatch({
 		topic: function() {
 			var self = this;
 			flux.search('ubuntu', function(err, torrents) {
-				flux.source('1337x.org', torrents[0], self.callback);
+				flux.source('1337x.to', torrents[0], self.callback);
 			});
 		},
 		
